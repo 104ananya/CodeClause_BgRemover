@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Background Remover</title>
+        <link rel="stylesheet" href="style.css">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">Logo</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-text">
+                <h1>Remove Image Background </h1>
+                <p>Make your images stand out with our advanced background removal tool.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </header>
+
+        <section class="features">
+            <h2>Key Features</h2>
+            <div class="feature-container">
+                <div class="feature">
+                    <img src="icon-1.svg" alt="Feature Icon">
+                    <h3>Automatic Background Removal</h3>
+                    <p>Our powerful AI algorithms can automatically remove backgrounds from your images.</p>
+                </div>
+                <div class="feature">
+                    <img src="icon-2.svg" alt="Feature Icon">
+                    <h3>Fast as Lightning</h3>
+                    <p>Background removal in just span of seconds, super fast as Flash. Refine the details with our
+                        easy-to-use tools.</p>
+                </div>
+                <div class="feature">
+                    <img src="icon-3.png" alt="Feature Icon">
+                    <h3>High-Quality Results</h3>
+                    <p>Experience professional-grade results with our advanced algorithms that ensure clean and accurate
+                        background removal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-container">
+                <h2>Ready to Get Started?</h2>
+                <p>Remove backgrounds and enhance your images effortlessly.</p>
+                <!-- <a href="#" class="btn">Select a File</a> -->
+
+
+                <div class="">
+                    <div class="">
+                        <div class="">
+                            <form>
+
+                                <div class="file-group">
+                                    <label for="fileInput" class="custom-file-upload">
+                                        <i class="fa fa-cloud-upload"></i> Select a File
+                                    </label>
+                                    <input id="fileInput" class="form-control" type="file" />
+                                </div>
+
+
+                                <input class="btn upload" type="button" onclick="submitHandler()" value="Upload">
+                            </form>
+
+                            <button class="btn download " onclick="downloadFile()">
+                                Download
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Image Remover. All rights reserved.</p>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
